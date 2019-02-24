@@ -13,6 +13,6 @@ ren %appdata%\discord\Backup\* *.png
 goto loop
 
 :loop
-echo Waiting 60 Seconds
-timeout >nul 60
+echo Waiting 300 Seconds (5 Minutes)
+timeout >nul 300
 goto start
